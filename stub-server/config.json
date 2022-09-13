@@ -1,0 +1,43 @@
+[
+    {
+      "request": {
+        "url": "^/trailService/v1/trails$",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "latency": 500,
+        "file": "responses/trails.json"
+      }
+    },
+    {
+      "request": {
+        "url": "^/loginService/v1/login.*$",
+        "method": "POST"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "latency": 500,
+        "file": "responses/login.json"
+      }
+    },
+    {
+      "request": {
+        "url": "^/loginService/v1/register.*$",
+        "method": "POST"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "latency": 500
+      }
+    }
+]
